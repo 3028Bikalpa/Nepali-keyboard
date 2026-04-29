@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Nepali IME</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2026. All rights reserved.</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>LSBackgroundOnly</key>
+	<true/>
+	<key>LSUIElement</key>
+	<true/>
+	<key>InputMethodConnectionName</key>
+	<string>NepaliIME_Connection</string>
+	<key>InputMethodServerControllerClass</key>
+	<string>InputMethodController</string>
+	<key>tsInputMethodCharacterRepertoireKey</key>
+	<array>
+		<string>Deva</string>
+	</array>
+	<key>tsInputMethodIconFileKey</key>
+	<string></string>
+	<key>tsInputMethodKeyEquivalentModifiersKey</key>
+	<integer>0</integer>
+	<key>tsInputMethodMenuIconFileKey</key>
+	<string></string>
+	<key>tsInputMethodScriptKey</key>
+	<string>smDevanagari</string>
+	<key>ComponentInputModeDict</key>
+	<dict>
+		<key>tsInputModeListKey</key>
+		<dict>
+			<key>com.nepaliime.inputmethod.Roman</key>
+			<dict>
+				<key>TISInputSourceID</key>
+				<string>com.nepaliime.inputmethod.Roman</string>
+				<key>TISIntendedLanguage</key>
+				<string>ne</string>
+				<key>tsInputModeDefaultStateKey</key>
+				<true/>
+				<key>tsInputModeIsVisibleKey</key>
+				<true/>
+				<key>tsInputModeKeyEquivalentKey</key>
+				<string></string>
+				<key>tsInputModeKeyEquivalentModifiersKey</key>
+				<integer>0</integer>
+				<key>tsInputModeMenuIconFileKey</key>
+				<string></string>
+				<key>tsInputModeAlternateMenuIconFileKey</key>
+				<string></string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
